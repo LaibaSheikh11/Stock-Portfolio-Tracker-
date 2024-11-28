@@ -2,7 +2,7 @@
 
 This Python application allows you to manage your stock portfolio, fetch real-time stock data from the Alpha Vantage API, and track the value of your investments. The application provides an intuitive graphical user interface (GUI) using Tkinter, where users can add or remove stocks, view their portfolio value, and save/load the portfolio data.
 
-```
+
 ## Features
 - **Add Stock**: Add a stock to the portfolio by specifying its symbol and quantity.
 - **Remove Stock**: Remove a specified quantity of stock from the portfolio.
@@ -11,19 +11,18 @@ This Python application allows you to manage your stock portfolio, fetch real-ti
 - **Stock Data Fetching**: Fetch live stock data (current price and change percentage) from the Alpha Vantage API.
 - **Portfolio Management**: Keep track of each stock's quantity and purchase price, calculate the profit for each stock, and calculate the total value of the portfolio.
   
-```
+
 ## Requirements
 - Python 3.x
 - `requests` library (for API calls)
 - `tkinter` library (for GUI)
 - `json` (for saving/loading portfolio data)
 - An Alpha Vantage API key (sign up for a free API key at [Alpha Vantage](https://www.alphavantage.co/support/#api-key))
-```
+
 
 Install required dependencies:
-   ```
-   pip install requests
-   ```
+- pip install requests
+   
 
 ## Usage
 1. Run the application:
